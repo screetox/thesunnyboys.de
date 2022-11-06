@@ -1,1 +1,1 @@
-document.getElementById('copyright').innerHTML = '© ' + new Date().getFullYear() + ' screetox.de';
+document.getElementById('copyright').innerHTML = '© ' + new Date().getFullYear() + ' The Sunnyboys';

@@ -16,7 +16,8 @@ p {
 .impressum-text {
     background-color: #fff;
     color: #000;
-
+    border-radius: 30px;
+    margin-top: 60px;
     padding: 3em 5em;
     text-align: start;
 }
@@ -25,11 +26,5 @@ p {
     #impressum-text {
         padding: 3em 2em;
         font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 535px) {
-    #shop-link-footer {
-        display: none;
     }
 }
