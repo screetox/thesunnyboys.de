@@ -27,6 +27,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 
 .social-links {
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -69,6 +70,68 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 #main h2 {
     font-weight: normal;
     margin-bottom: 20px;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#quote {
+    padding: 20px 50px;
+}
+
+#intro-img-border {
+    flex-shrink: 0;
+    border-radius: 10px;
+    width: 460px;
+    height: 575px;
+    background-image: url('../files/img/Auftritt-Spieleland.jpg');
+    background-size: 460px 575px;
+    background-position: center center;
+    position: relative;
+
+    -webkit-filter: drop-shadow(3px 3px 3px #777);
+    filter: drop-shadow(3px 3px 3px #777);
+}
+
+#intro-img-border:after {
+    content: '';
+    position: absolute;
+    border-radius: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    left: 5px;
+    top: 5px;
+    background-color: #fff;
+}
+
+#intro-img {
+    position: absolute;
+    border-radius: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    left: 5px;
+    top: 5px;
+    background-image: url('../files/img/Auftritt-Spieleland.jpg');
+    background-size: 460px 575px;
+    background-position: center center;
+    z-index: 2;
+    transform: translate(-15px, -15px);
+    transition: .5s cubic-bezier(.5,.03,.41,1);
+
+    -webkit-filter: drop-shadow(3px 3px 3px #777);
+    filter: drop-shadow(3px 3px 3px #777);
+}
+
+#intro-img:hover {
+    transform: translate(0px, 0px);
+    transition: .5s cubic-bezier(.5,.03,.41,1);
+
+    -webkit-filter: drop-shadow(0px 0px 0px #999);
+    filter: drop-shadow(0px 0px 0px #999);
 }
 
 #links {
@@ -116,6 +179,12 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     font-size: 16px;
 }
 
+@media only screen and (max-width: 1300px) {
+    #quote {
+        padding: 20px 20px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .team-img {
         max-width: 180px;
@@ -124,11 +193,33 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     #team-grid {
         grid-template-columns: calc(50% - 20px) calc(50% - 20px);
     }
+
+    #intro-img-border {
+        width: 270px;
+        height: 337px;
+        background-size: 270px 337px;
+    }
+
+    #intro-img {
+        background-size: 270px 337px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #intro {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     div[class^="main-section-"], div[class*=" main-section-"] {
-        padding: 20px;
+        padding: 60px 20px;
+    }
+
+    #main h2 {
+        font-size: 1.5em;
+        font-weight: normal;
+        margin-bottom: 20px;
     }
 
     #welcome {
