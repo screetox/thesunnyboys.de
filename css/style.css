@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto';
     font-size: 22px;
 
-    background-image: url(../files/img/brick-wall-scaled.jpg);
+    background-image: url(../files/img/background.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ a {
     display: flex;
     height: 80px;
 
-    background-image: url(../files/img/brick-wall-scaled.jpg);
+    background-image: url(../files/img/background.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -59,8 +59,8 @@ a {
     opacity: 1;
 }
 
-#top-hr {
-    border: 2px solid #801614;
+.transparent-hr {
+    color: #0000;
 }
 
 #header, #footer {
@@ -80,8 +80,8 @@ a {
     padding: 10px calc(40px + 0.6em);
     border-radius: 0 0 30px 30px;
 
-    background-color: #000a;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -106,6 +106,14 @@ a {
     align-items: center;
 }
 
+#header-nav a {
+    transition: text-shadow 300ms;
+}
+
+#header-nav a:hover {
+    text-shadow: 1px 1px 3px #777;
+}
+
 #main {
     max-width: 1400px;
     margin: 0 auto;
@@ -121,16 +129,18 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    text-transform: none;
     border-radius: 20px;
-    width: 200px;
+    width: 220px;
     height: 40px;
 }
 
 #copyright {
-    color: #801614;
+    color: #000;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    line-height: 160%;
     letter-spacing: 1px;
     text-transform: none;
 }

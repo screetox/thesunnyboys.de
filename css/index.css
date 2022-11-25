@@ -4,7 +4,7 @@
 }
 
 .main-section-2 {
-    background-color: #fdf5f5;
+    background-color: #fff;
 }
 
 .main-section-3 {
@@ -14,7 +14,7 @@
 
 div[class^="main-section-"], div[class*=" main-section-"] {
     padding: 60px;
-    color: #54617A;
+    color: #000;
 }
 
 .team-img {
