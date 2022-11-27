@@ -140,22 +140,8 @@ a {
 
 #footer {
     max-width: 1400px;
-    margin: 30px auto;
+    margin: 10px auto;
     justify-content: center;
-    -webkit-filter: drop-shadow(0 5px 10px #000);
-    filter: drop-shadow(0 5px 10px #000);
-}
-
-#copyright-background {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    text-transform: none;
-    margin: 30px 0;
-    border-radius: 20px;
-    width: 220px;
-    height: 40px;
 }
 
 #copyright {
