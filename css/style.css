@@ -54,10 +54,12 @@ a {
     max-width: 70px;
     max-height: 60px;
     opacity: 0;
+    transition: opacity .3s;
 }
 
 .icon-effect a img:hover {
     opacity: 1;
+    transition: opacity .3s;
 }
 
 #header {

@@ -200,10 +200,6 @@
     mask-image: url(../files/img/youtube-logo.png);
 }
 
-#youtube-link .icon-effect a {
-    background-image: url(../files/img/youtube-logo-placeholder.png);
-}
-
 #mail-link .icon-effect {
     -webkit-mask-image: url(../files/img/mail-logo.png);
     mask-image: url(../files/img/mail-logo.png);
