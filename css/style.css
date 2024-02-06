@@ -27,6 +27,7 @@ a {
     mask-size: contain;
     -webkit-mask-position: center;
     mask-position: center;
+    -webkit-filter: drop-shadow(0 5px 10px #000);
     filter: drop-shadow(0 5px 10px #000);
     display: flex;
     height: 80px;

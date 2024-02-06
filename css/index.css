@@ -150,6 +150,7 @@
     perspective: 1000px;
     top: 0;
     right: 10%;
+    -webkit-filter: drop-shadow(5px 5px 10px #000A);
     filter: drop-shadow(5px 5px 5px #000A);
 }
 
@@ -179,6 +180,7 @@
     width: 20%;
     transform-origin: 100% 50%;
     transform: rotateY(60deg) translateX(100%);
+    -webkit-filter: brightness(40%);
     filter: brightness(40%);
 }
 
