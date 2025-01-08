@@ -119,69 +119,23 @@
     border-radius: 10px;
 }
 
-#main h2 {
+#main h2, #main h3 {
     font-weight: normal;
     margin-bottom: 20px;
 }
 
 #intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 25px));
     gap: 50px;
 }
 
 #quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px 50px;
-}
-
-#intro-img-block {
-    flex-shrink: 0;
-    position: relative;
-    width: 365px;
-    padding-top: 575px;
-    margin: 0 50px 0 0;
-}
-
-#intro-img {
-    position: absolute;
-    height: 100%;
-    width: 90%;
-    perspective: 1000px;
-    top: 0;
-    right: 10%;
-    -webkit-filter: drop-shadow(5px 5px 10px #000A);
-    filter: drop-shadow(5px 5px 5px #000A);
-}
-
-#intro-img-main {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url('../files/img/Auftritt-Spieleland.jpg');
-    background-size: auto 100%;
-    background-position: 50% 0;
-
-    height: 100%;
-    width: 100%;
-    transform-origin: 100% 50%;
-    transform: rotateY(-20deg);
-}
-
-#intro-img-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url('../files/img/Auftritt-Spieleland.jpg');
-    background-size: auto 100%;
-    background-position: 100% 0;  /* first value depends on image width */
-
-    height: 100%;
-    width: 20%;
-    transform-origin: 100% 50%;
-    transform: rotateY(60deg) translateX(100%);
-    -webkit-filter: brightness(40%);
-    filter: brightness(40%);
 }
 
 #links {
@@ -233,15 +187,11 @@
 
 @media only screen and (max-width: 1000px) {
     #intro {
-        gap: 0;
+        grid-template-columns: 100%;
     }
 
     #team-grid {
         grid-template-columns: calc(50% - 20px) calc(50% - 20px);
-    }
-
-    #intro-img-block {
-        margin: 0;
     }
 }
 
@@ -258,8 +208,10 @@
 
     #main h2 {
         font-size: 1.5em;
-        font-weight: normal;
-        margin-bottom: 20px;
+    }
+
+    #main h3 {
+        font-size: 1em;
     }
 
     #welcome {
