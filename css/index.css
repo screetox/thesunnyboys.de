@@ -21,6 +21,7 @@
     background-size: 200px 275px;
     background-position: center center;
     position: relative;
+    transform: translate(0px, 0px);
 
     -webkit-filter: drop-shadow(3px 3px 3px #000A);
     filter: drop-shadow(3px 3px 3px #000A);
@@ -35,6 +36,14 @@
     left: 6px;
     top: 6px;
     background-color: #fff;
+}
+
+.team-img-border:hover .team-img {
+    transform: translate(-10px, -10px);
+    transition: .5s cubic-bezier(.5,.03,.41,1);
+
+    -webkit-filter: drop-shadow(3px 3px 3px #000A);
+    filter: drop-shadow(3px 3px 3px #000A);
 }
 
 .team-img {
@@ -53,16 +62,8 @@
     transform: translate(0px, 0px);
     transition: .5s cubic-bezier(.5,.03,.41,1);
 
-    -webkit-filter: drop-shadow(0px 0px 0px #999);
-    filter: drop-shadow(0px 0px 0px #999);
-}
-
-.team-img:hover {
-    transform: translate(-10px, -10px);
-    transition: .5s cubic-bezier(.5,.03,.41,1);
-
-    -webkit-filter: drop-shadow(3px 3px 3px #000A);
-    filter: drop-shadow(3px 3px 3px #000A);
+    -webkit-filter: drop-shadow(0px 0px 0px #fff);
+    filter: drop-shadow(0px 0px 0px #fff);
 }
 
 .social-links {
