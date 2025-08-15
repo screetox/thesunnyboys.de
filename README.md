@@ -1,6 +1,6 @@
 # thesunnyboys.de
 
-[![thesunnyboys.de](https://img.shields.io/website?url=https%3A%2F%2Fthesunnyboys.de&up_message=online&up_color=green&down_message=offline&down_color=lightgrey&label=thesunnyboys.de&link=https%3A%2F%2Fthesunnyboys.de)](https://thesunnyboys.de)
+[![thesunnyboys.de](https://img.shields.io/website?url=https%3A%2F%2Fthesunnyboys.de&up_message=online&up_color=green&down_message=offline&down_color=lightgrey&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABJUlEQVQ4jZ3RvyvFURjH8ZcfCYN0VyVFqTtI1M1kNMgog8Fo8AcYlUkGyWiSZDBfBgMlk5EYyK8kkiKJ8utew/fI19f35uapp/M5Pc95n/N8ToXf0YARFNAa9ou4Qh/akccmVKQAJkNjDnu4wDNeMYBM0KtYSjnvEI/oSCuiHpUlaqZQxHKphmTESdUYDLrmP4As2oI+LxdQFdNNIodbAuxM5EehXFgtVvAi8qGIG8yjq1zIOOZwH4N85exfI8AT3rGNU3T79qkHOzhOAnpF/14nmvsI+7hDc7g9E/ovsZF8xQlusR6e35moj+EhgCbSxkjO+oYZkamNWIjVhtIA11jDlp8/8BgyDs+nAXIx3YBRHMQOfYR1F8NpgFJRHzKLafSnNX0CcW1PrXe5VMIAAAAASUVORK5CYII=&label=thesunnyboys.de&link=https%3A%2F%2Fthesunnyboys.de)](https://thesunnyboys.de)
 
 A group website featuring music-related content, event info, and media.
 
